@@ -1,0 +1,21 @@
+Package: my
+Type: Package
+Title: This package is developed for easy importing of company data
+Version: 0.1.0
+Author: Felix Zhao
+Maintainer: Felix Zhao <felixzhao123@outlook.com>
+Description: This package is developed for easy importing of company data
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    lubridate,
+    stringr,
+    hrbrthemes,
+    fs,
+    vroom,
+    magrittr
+Suggests: 
+    testthat
+
